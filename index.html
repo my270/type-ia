@@ -93,6 +93,10 @@
             background: #ffebee;
             border-color: #f44336;
         }
+        .correct {
+            background: #e8f5e9;
+            border-color: #4CAF50;
+        }
         button {
             padding: 10px 20px;
             background: #4CAF50;
@@ -133,48 +137,48 @@
             </tr>
             <tr>
                 <td>Un robot apprend à dessiner en observant des milliers d'œuvres d'art célèbres, puis il essaie de créer ses propres tableaux.</td>
-                <td class="dropzone" data-answer="Générative" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Non supervisé" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Générative" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Non supervisé" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
             <tr>
                 <td>Un assistant vocal, comme Alexa ou Google Assistant, apprend à reconnaître des mots et à comprendre des commandes.</td>
-                <td class="dropzone" data-answer="Comportementale" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Apprentissage supervisé" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Comportementale" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Apprentissage supervisé" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
             <tr>
                 <td>Un robot apprend à jouer à un jeu vidéo en jouant seul pendant des heures et en s'améliorant à chaque partie.</td>
-                <td class="dropzone" data-answer="Comportementale" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Apprentissage par renforcement" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Comportementale" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Apprentissage par renforcement" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
             <tr>
                 <td>Un logiciel apprend à distinguer les e-mails normaux des spams en analysant des millions d'e-mails marqués comme 'spam'.</td>
-                <td class="dropzone" data-answer="Statistique" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Apprentissage supervisé" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Statistique" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Apprentissage supervisé" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
             <tr>
                 <td>Un aspirateur robot navigue dans une pièce en évitant les obstacles qu'il détecte grâce à ses capteurs.</td>
-                <td class="dropzone" data-answer="Comportementale" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Non supervisé" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Comportementale" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Non supervisé" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
             <tr>
                 <td>Un ordinateur comme Deep Blue utilise une base de données de parties d'échecs jouées par des humains et applique des règles.</td>
-                <td class="dropzone" data-answer="Symbolique" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Basé sur des règles fixes" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Symbolique" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Basé sur des règles fixes" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
             <tr>
                 <td>Une voiture autonome apprend à détecter les feux rouges, les piétons et les panneaux en analysant des images annotées.</td>
-                <td class="dropzone" data-answer="Comportementale" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Apprentissage supervisé" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Comportementale" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Apprentissage supervisé" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
             <tr>
                 <td>Une machine trie automatiquement les déchets en plastique, métal et papier en observant des exemples, puis ajuste ses choix.</td>
-                <td class="dropzone" data-answer="Statistique" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Non supervisé" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Statistique" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Non supervisé" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
             <tr>
                 <td>Un logiciel médical utilise une base de règles établies par des médecins pour proposer des diagnostics à partir de symptômes.</td>
-                <td class="dropzone" data-answer="Symbolique" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-                <td class="dropzone" data-answer="Basé sur des règles fixes" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td class="dropzone" data-answer="Symbolique" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
+                <td class="dropzone" data-answer="Basé sur des règles fixes" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="dragLeave(event)"></td>
             </tr>
         </table>
 
@@ -193,3 +197,109 @@
     <button onclick="resetExercise()">Réinitialiser</button>
     <button onclick="checkAnswers()">Valider</button>
     <p id="resultat"></p>
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+            ev.target.classList.add('active');
+        }
+
+        function dragLeave(ev) {
+            ev.target.classList.remove('active');
+        }
+
+        function drag(ev) {
+            ev.target.classList.add('dragging');
+            ev.dataTransfer.setData("text/plain", ev.target.id);
+            ev.dataTransfer.setData("text/html", ev.target.outerHTML);
+        }
+
+        function dragEnd(ev) {
+            ev.target.classList.remove('dragging');
+            document.querySelectorAll('.dropzone').forEach(zone => {
+                zone.classList.remove('active');
+            });
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            ev.target.classList.remove('active');
+            
+            if (ev.target.children.length > 0) {
+                let existingLabel = ev.target.children[0];
+                let newLabel = document.createElement('div');
+                newLabel.className = 'label';
+                newLabel.draggable = true;
+                newLabel.id = existingLabel.id;
+                newLabel.innerHTML = existingLabel.innerHTML;
+                newLabel.setAttribute('ondragstart', 'drag(event)');
+                newLabel.setAttribute('ondragend', 'dragEnd(event)');
+                document.querySelector('.label-container').appendChild(newLabel);
+            }
+
+            let id = ev.dataTransfer.getData("text/plain");
+            let html = ev.dataTransfer.getData("text/html");
+            
+            let tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+            let newElement = tempDiv.firstChild;
+            
+            ev.target.innerHTML = '';
+            ev.target.appendChild(newElement);
+            
+            let originalElement = document.getElementById(id);
+            if (originalElement && originalElement.parentNode.classList.contains('label-container')) {
+                originalElement.remove();
+            }
+        }
+
+        function checkAnswers() {
+            let score = 0;
+            let total = 0;
+            const dropzones = document.querySelectorAll('.dropzone');
+            
+            dropzones.forEach(zone => {
+                total++;
+                if (zone.children.length > 0) {
+                    const answer = zone.children[0].textContent;
+                    if (answer === zone.dataset.answer) {
+                        score++;
+                        zone.classList.remove('incorrect');
+                        zone.classList.add('correct');
+                    } else {
+                        zone.classList.add('incorrect');
+                        zone.classList.remove('correct');
+                    }
+                } else {
+                    zone.classList.add('incorrect');
+                }
+            });
+
+            const studentName = document.getElementById('studentName').value;
+            const resultat = document.getElementById('resultat');
+            resultat.textContent = `${studentName} : ${score}/${total} réponses correctes`;
+        }
+
+        function resetExercise() {
+            document.querySelectorAll('.dropzone').forEach(zone => {
+                zone.innerHTML = '';
+                zone.classList.remove('incorrect', 'correct', 'active');
+            });
+
+            const labelContainer = document.querySelector('.label-container');
+            labelContainer.innerHTML = `
+                <div class="label" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" id="Symbolique">Symbolique</div>
+                <div class="label" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" id="Comportementale">Comportementale</div>
+                <div class="label" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" id="Statistique">Statistique</div>
+                <div class="label" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" id="Générative">Générative</div>
+                <div class="label" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" id="Apprentissage supervisé">Apprentissage supervisé</div>
+                <div class="label" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" id="Non supervisé">Non supervisé</div>
+                <div class="label" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" id="Apprentissage par renforcement">Apprentissage par renforcement</div>
+                <div class="label" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" id="Basé sur des règles fixes">Basé sur des règles fixes</div>
+            `;
+
+            document.getElementById('resultat').textContent = '';
+        }
+    </script>
+</body>
+</html>
